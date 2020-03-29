@@ -110,3 +110,4 @@ let g:rustfmt_autosave = 1
 set hidden
 let g:racer_cmd = "~/.cargo/bin/racer"
 let g:airline#extensions#tabline#enabled = 1
+autocmd BufWritePost * GitGutter
