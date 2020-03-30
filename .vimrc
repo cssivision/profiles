@@ -91,6 +91,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_generate_tags = 1
+let g:go_fmt_command = "goimports"
 
 augroup Racer
     autocmd!
