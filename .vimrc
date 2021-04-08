@@ -69,7 +69,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " 代码自动完成，安装完插件还需要额外配置才可以使用
-" cd ~/.vim/plugged/YouCompleteMe && ./install.py --go-completer
+" cd ~/.vim/plugged/YouCompleteMe && ./install.py --go-completer --rust-completer
 Plug 'ycm-core/YouCompleteMe'
 
 " 插件结束的位置，插件全部放在此行上面
