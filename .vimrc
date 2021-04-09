@@ -47,7 +47,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rust-lang/rust.vim'
-Plug 'racer-rust/vim-racer'
 Plug 'airblade/vim-gitgutter'
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
@@ -93,12 +92,7 @@ let g:go_highlight_methods = 1
 let g:go_highlight_generate_tags = 1
 let g:go_fmt_command = "goimports"
 
-augroup Racer
-    autocmd!
-    autocmd FileType rust nmap <buffer> <C-]>         <Plug>(rust-def)
-    autocmd FileType rust nmap <buffer> <C-s>         <Plug>(rust-def-split)
-    autocmd FileType rust nmap <buffer> <C-x>         <Plug>(rust-def-vertical)
-augroup END
+map <C-]> :YcmCompleter GoTo<CR>
 
 "Switch between different windows by their direction`
 no <C-j> <C-w>j| "switching to below window
@@ -106,9 +100,7 @@ no <C-k> <C-w>k| "switching to above window
 no <C-l> <C-w>l| "switching to right window
 no <C-h> <C-w>h| "switching to left window
 
-let g:racer_experimental_completer = 1
 let g:rustfmt_autosave = 1
 set hidden
-let g:racer_cmd = "~/.cargo/bin/racer"
 let g:airline#extensions#tabline#enabled = 1
 autocmd BufWritePost * GitGutter
