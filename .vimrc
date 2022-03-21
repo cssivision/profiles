@@ -10,7 +10,8 @@ set backspace=indent,eol,start
 
 " 关闭兼容模式
 set nocompatible
-set nu " 设置行号 set cursorline "突出显示当前行
+set nu " 设置行号 
+set cursorline "突出显示当前行
 set showmatch " 显示括号匹配
 set hlsearch
 
