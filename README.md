@@ -1,9 +1,7 @@
 # .vimrc
 my vim configuration
 
-- install onedark theme.
-
-https://github.com/joshdick/onedark.vim
+- install [onedark][onedark] theme.
 
 - using vim8 with python3 supported.
 ```sh
@@ -29,3 +27,4 @@ cd ~/.vim/plugged/YouCompleteMe && ./install.py --go-completer --rust-completer
 
 [fzf-main]: https://github.com/junegunn/fzf
 [rg]:    https://github.com/BurntSushi/ripgrep
+[onedark]: https://github.com/joshdick/onedark.vim
