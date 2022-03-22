@@ -95,6 +95,10 @@ let g:go_fmt_command = "goimports"
 
 map <C-]> :YcmCompleter GoTo<CR>
 
+"fzf 
+nnoremap <C-p> :GFiles<Cr>
+nnoremap <C-g> :Rg<Cr>
+
 "Switch between different windows by their direction`
 no <C-j> <C-w>j| "switching to below window
 no <C-k> <C-w>k| "switching to above window
