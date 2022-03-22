@@ -14,7 +14,7 @@ make
 make install
 ```
 
--  install ycm with go completer
+-  install ycm with go and rust completer
 ```sh
 cd ~/.vim/plugged/YouCompleteMe && ./install.py --go-completer --rust-completer
 ```
