@@ -99,6 +99,10 @@ map <C-]> :YcmCompleter GoTo<CR>
 nnoremap <C-p> :GFiles<Cr>
 nnoremap <C-g> :Rg<Cr>
 
+" airline 
+nnoremap <C-i> :bnext<Cr>
+nnoremap <C-u> :bprevious<Cr>
+
 "Switch between different windows by their direction`
 no <C-j> <C-w>j| "switching to below window
 no <C-k> <C-w>k| "switching to above window
