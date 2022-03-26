@@ -72,6 +72,9 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " cd ~/.vim/plugged/YouCompleteMe && ./install.py --go-completer --rust-completer
 Plug 'ycm-core/YouCompleteMe'
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 " 插件结束的位置，插件全部放在此行上面
 call plug#end()
 
