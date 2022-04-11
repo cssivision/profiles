@@ -18,4 +18,4 @@
     syntax-theme = OneHalfDark
     whitespace-error-style = reverse red
     zero-style = dim syntax
-	line-numbers = true
+    line-numbers = true
