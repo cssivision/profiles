@@ -6,7 +6,6 @@
     hunk-header-file-style = magenta
     hunk-header-line-number-style = dim magenta
     hunk-header-style = file line-number syntax
-    line-numbers = false
     minus-emph-style = bold red 52
     minus-empty-line-marker-style = normal "#3f0001"
     minus-non-emph-style = dim red
