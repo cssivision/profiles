@@ -1,5 +1,4 @@
 [delta "villsau"]
-    # author: https://github.com/torarnv
     dark = true
     file-style = omit
     hunk-header-decoration-style = omit
