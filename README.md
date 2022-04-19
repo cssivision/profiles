@@ -1,4 +1,5 @@
-# .vimrc
+# my dotfiles
+
 my vim configuration
 
 - install [onedark][onedark] theme.
