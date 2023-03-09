@@ -6,6 +6,7 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 set backspace=indent,eol,start
+set mouse=a
 
 
 " 关闭兼容模式
