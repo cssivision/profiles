@@ -113,6 +113,7 @@ no <C-k> <C-w>k| "switching to above window
 no <C-l> <C-w>l| "switching to right window
 no <C-h> <C-w>h| "switching to left window
 
+let NERDTreeShowHidden=1
 let g:rustfmt_autosave = 1
 " let g:ycm_rust_toolchain_root = $HOME.'/.rustup/toolchains/stable-x86_64-unknown-linux-gnu'
 let g:ycm_max_diagnostics_to_display = 0
